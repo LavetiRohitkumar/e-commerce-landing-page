@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Vehicles</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Clothes</a></li>
+                <li><a href="#">Bed & Bath</a></li>
+                <li><a href="#">Tabletop</a></li>
+                <li><a href="#">Furniture</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Our <span>Latest</span> Products</h1>
+            <button>View All</button>
+        </div>
+        <div class="hero-images">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/bicycle-sale-banner-design-template-0a2d102f2d6afeeb89fa7f347810910c_screen.jpg?ts=1625840668" alt="Product 1">
+            <img src="https://cdn.shopify.com/s/files/1/2108/6923/collections/Artboard_2_copy_5.jpg?v=1689073901" alt="Product 2">
+            <img src="https://gppro.in/wp-content/uploads/2023/09/GoPro_Hero12_Black-1.png" alt="Product 3">
+        </div>
+    </section>
+    <section class="brand-logos">
+        <img src="./assets/brands.jpg" alt="Brand 1">
+        <img src="./assets/magento.png" alt="Brand 2">
+        <img src="./assets/shopify.png" alt="Brand 4">
+        <img src="./assets/woocommerce.png" alt="Brand 5">
+        <img src="./assets/brands.jpg" alt="Brand 6">
+        <img src="./assets/magento.png" alt="Brand 7">
+        <img src="./assets/shopify.png" alt="Brand 8">
+        <img src="./assets/woocommerce.png" alt="Brand 9">
+        <img src="./assets/brands.jpg" alt="Brand 10">
+    </section>
+    <section class="products">
+        <aside class="filters">
+            <h3>Categories</h3>
+            <ul>
+                <li>Tables</li>
+                <li>Lamps</li>
+                <li>Chairs</li>
+                <li>Sofas</li>
+            </ul>
+            <h3>Filter By</h3>
+            <h4>Colors</h4>
+            <div class="colors">
+                <div style="background-color: red;"></div>
+                <div style="background-color: blue;"></div>
+                <div style="background-color: green;"></div>
+                <div style="background-color: yellow;"></div>
+                <div style="background-color: purple;"></div>
+            </div>
+            <h3>Price Range</h3>
+            <input type="range" min="0" max="5000">
+            <h4>Others</h4>
+        </aside>
+        <div class="product-list">
+            <div class="product1">
+                <div class="carousel">
+                    <img src="https://www.luxinu.com/public/theme/images/b1.jpg" alt="Product 1">
+                </div>
+                <h4>Designers Chair GT Designed by Carry Gall - The Collection</h4>
+                <p>Original Price $130 <br><span class="original-price" style="color: cyan">$120</span></p>
+                <button1 onclick="viewProduct(1)">View Product</button1>
+                <button2>Add to Cart</button2>
+            </div>
+            <div class="product2">
+                <div class="carousel">
+                    <img src="https://cdn11.bigcommerce.com/s-ftyp0waks/products/152/images/419/SC-MD03__10935.1577710567.1280.1280.jpg?c=2" alt="Product 4">
+                </div>
+                <h4>Designers Chair GT Designed by Carry Gall - The Collection</h4>
+                <p>Original Price $130 <br><span class="original-price" style="color: cyan">$120</span></p>
+                <button1 onclick="viewProduct(2)">View Product</button1>
+                <button2>Add to Cart</button2>
+            </div>
+            <div class="product1">
+                <div class="carousel">
+                    <img src="https://www.luxinu.com/public/theme/images/b1.jpg" alt="Product 4">
+                </div>
+                <h4>Designers Chair GT Designed by Carry Gall - The Collection</h4>
+                <p>Original Price $130 <br><span class="original-price" style="color: cyan">$120</span></p>
+                <button1 onclick="viewProduct(3)">View Product</button1>
+                <button2>Add to Cart</button2>
+            </div>
+            <div class="product1">
+                <div class="carousel">
+                    <img src="https://www.luxinu.com/public/theme/images/b1.jpg" alt="Product 4">
+                </div>
+                <h4>Designers Chair GT Designed by Carry Gall - The Collection</h4>
+                <p>Original Price $130 <br><span class="original-price" style="color: cyan">$120</span></p>
+                <button1 onclick="viewProduct(4)">View Product</button1>
+                <button2>Add to Cart</button2>
+            </div>
+            <div class="product2">
+                <div class="carousel">
+                    <img src="https://cdn11.bigcommerce.com/s-ftyp0waks/products/152/images/419/SC-MD03__10935.1577710567.1280.1280.jpg?c=2" alt="Product 4">
+                </div>
+                <h4>Designers Chair GT Designed by Carry Gall - The Collection</h4>
+                <p>Original Price $130 <br><span class="original-price" style="color: cyan">$120</span></p>
+                <button1 onclick="viewProduct(5)">View Product</button1>
+                <button2>Add to Cart</button2>
+            </div>
+            <div class="product1">
+                <div class="carousel">
+                    <img src="https://www.luxinu.com/public/theme/images/b1.jpg" alt="Product 4">
+                </div>
+                <h4>Designers Chair GT Designed by Carry Gall - The Collection</h4>
+                <p>Original Price $130 <br><span class="original-price" style="color: cyan">$120</span></p>
+                <button1 onclick="viewProduct(6)">View Product</button1>
+                <button2>Add to Cart</button2>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
